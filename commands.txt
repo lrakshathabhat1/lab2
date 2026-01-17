@@ -1,5 +1,5 @@
-git config --global user.name KshamaV24
-git config --global user.email kshamabv24@gmail.com
+git config --global user.name lrakshathabhat1
+git config --global user.email lrakshathabhat2@gmail.com
 
 git init
 Initialized empty Git repository in D:/15NCS07/lab2/.git/
@@ -36,3 +36,4 @@ Updating 45b41d1..f5e4dc
 Fast-forward
 abc.c | 16 +++++++++-------
 1 file changed, 9 insertions(+), 7 deletions(-)
+
