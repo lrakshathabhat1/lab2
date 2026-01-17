@@ -1,0 +1,38 @@
+git config --global user.name KshamaV24
+git config --global user.email kshamabv24@gmail.com
+
+git init
+Initialized empty Git repository in D:/15NCS07/lab2/.git/
+
+git add abc.c
+git commit -m "c program saved"
+
+[master (root-commit) 45b41d1] c program saved
+1 file changed, 13 insertions(+)
+create mode 100644 abc.c
+
+git status
+On branch master
+nothing to commit, working tree clean
+
+git checkout -b feature-branch
+Switched to a new branch 'feature-branch'
+
+git status
+On branch feature-branch
+nothing to commit, working tree clean
+
+git add .
+git commit -m "abc updated"
+
+[feature-branch f5e4dc] abc updated
+1 file changed, 9 insertions(+), 7 deletions(-)
+
+git switch master
+Switched to branch 'master'
+
+git merge feature-branch
+Updating 45b41d1..f5e4dc
+Fast-forward
+abc.c | 16 +++++++++-------
+1 file changed, 9 insertions(+), 7 deletions(-)
